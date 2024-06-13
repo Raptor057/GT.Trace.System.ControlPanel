@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Common", "..\..\Common\Common\Common.Common\Common.Common.csproj", "{28B4E6EB-A96F-4016-A062-100D1F4EC774}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GT.Trace.System.ControlPanel.WebClient.UI", "GT.Trace.System.ControlPanel.WebClient.UI\", "{9ED0889F-7876-490B-8090-3F810C149E97}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61326"
+		Debug.AspNetCompiler.PhysicalPath = "GT.Trace.System.ControlPanel.WebClient.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61326\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61326"
+		Release.AspNetCompiler.PhysicalPath = "GT.Trace.System.ControlPanel.WebClient.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61326\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61326"
+		SlnRelativePath = "GT.Trace.System.ControlPanel.WebClient.UI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.Trace.System.ControlPanel.App", "GT.Trace.System.ControlPanel.App\GT.Trace.System.ControlPanel.App.csproj", "{F601E0B5-200D-4A9C-A36A-B8C433CBD34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.Trace.System.ControlPanel.Domain", "GT.Trace.System.ControlPanel.Domain\GT.Trace.System.ControlPanel.Domain.csproj", "{8E930F53-BD07-408E-B68C-52A4C906C719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.Trace.System.ControlPanel.Infra", "GT.Trace.System.ControlPanel.Infra\GT.Trace.System.ControlPanel.Infra.csproj", "{C639FCA4-1C90-4C6F-93D5-807D535DC0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.Trace.System.ControlPanel.WebApi", "GT.Trace.System.ControlPanel.WebApi\GT.Trace.System.ControlPanel.WebApi.csproj", "{615B9A42-4B5A-45A2-9DD4-B3D4B5003943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28B4E6EB-A96F-4016-A062-100D1F4EC774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B4E6EB-A96F-4016-A062-100D1F4EC774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B4E6EB-A96F-4016-A062-100D1F4EC774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B4E6EB-A96F-4016-A062-100D1F4EC774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED0889F-7876-490B-8090-3F810C149E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED0889F-7876-490B-8090-3F810C149E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED0889F-7876-490B-8090-3F810C149E97}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED0889F-7876-490B-8090-3F810C149E97}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F601E0B5-200D-4A9C-A36A-B8C433CBD34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F601E0B5-200D-4A9C-A36A-B8C433CBD34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F601E0B5-200D-4A9C-A36A-B8C433CBD34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F601E0B5-200D-4A9C-A36A-B8C433CBD34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E930F53-BD07-408E-B68C-52A4C906C719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E930F53-BD07-408E-B68C-52A4C906C719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E930F53-BD07-408E-B68C-52A4C906C719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E930F53-BD07-408E-B68C-52A4C906C719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C639FCA4-1C90-4C6F-93D5-807D535DC0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C639FCA4-1C90-4C6F-93D5-807D535DC0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C639FCA4-1C90-4C6F-93D5-807D535DC0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C639FCA4-1C90-4C6F-93D5-807D535DC0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615B9A42-4B5A-45A2-9DD4-B3D4B5003943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615B9A42-4B5A-45A2-9DD4-B3D4B5003943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615B9A42-4B5A-45A2-9DD4-B3D4B5003943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615B9A42-4B5A-45A2-9DD4-B3D4B5003943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C7FF112-AE55-4AAF-AB3F-A93ECD6A3C0F}
+	EndGlobalSection
+EndGlobal
