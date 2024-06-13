@@ -34,6 +34,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.Trace.System.ControlPanel.Infra", "GT.Trace.System.ControlPanel.Infra\GT.Trace.System.ControlPanel.Infra.csproj", "{C639FCA4-1C90-4C6F-93D5-807D535DC0B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.Trace.System.ControlPanel.WebApi", "GT.Trace.System.ControlPanel.WebApi\GT.Trace.System.ControlPanel.WebApi.csproj", "{615B9A42-4B5A-45A2-9DD4-B3D4B5003943}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C639FCA4-1C90-4C6F-93D5-807D535DC0B4} = {C639FCA4-1C90-4C6F-93D5-807D535DC0B4}
+		{F601E0B5-200D-4A9C-A36A-B8C433CBD34E} = {F601E0B5-200D-4A9C-A36A-B8C433CBD34E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,4 +10,9 @@
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Common\Common.Common\Common.Common.csproj" />
+    <ProjectReference Include="..\GT.Trace.System.ControlPanel.App\GT.Trace.System.ControlPanel.App.csproj" />
+  </ItemGroup>
+
 </Project>

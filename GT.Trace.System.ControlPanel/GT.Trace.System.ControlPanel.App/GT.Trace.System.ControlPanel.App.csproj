@@ -11,4 +11,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Common\Common.Common\Common.Common.csproj" />
+    <ProjectReference Include="..\GT.Trace.System.ControlPanel.Domain\GT.Trace.System.ControlPanel.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
