@@ -7,12 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Serilog" Version="4.0.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.1" />
+    <PackageReference Include="Serilog.Sinks.Debug" Version="3.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Common\Common\Common.Common\Common.Common.csproj" />
     <ProjectReference Include="..\GT.Trace.System.ControlPanel.App\GT.Trace.System.ControlPanel.App.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataSources\Entities\" />
   </ItemGroup>
 
 </Project>
